@@ -1,4 +1,4 @@
-# Walmart Sales Analysis Dashboard
+ Walmart Sales Analysis Dashboard
 
  Project Overview
 
@@ -6,13 +6,13 @@ This project focuses on analyzing Walmart sales data using **MySQL and Tableau**
 
 The project follows a data analytics workflow, from data cleaning and exploratory data analysis to advanced SQL queries and dashboard visualization.
 
-## 🛠️ Tools & Technologies
+Tools & Technologies
 
 * **MySQL** – Data cleaning, data transformation, and SQL analysis
 * **Tableau** – Data visualization and interactive dashboard creation
 * **CSV** – Source dataset
 
-## 📊 Dataset Description
+Dataset Description
 
 The dataset contains sales transaction information, including:
 
@@ -30,15 +30,15 @@ The dataset contains sales transaction information, including:
 
 Additional fields, including day name, month name, and time of day, were prepared for further analysis.
 
-## 🔄 Project Workflow
+ Project Workflow
 
-### 1. Database Creation
+1. Database Creation
 
 * Created the `walmart` database in MySQL.
 * Created a sales table to store transaction data.
 * Imported the CSV dataset into the database.
 
-### 2. Data Cleaning
+ 2. Data Cleaning
 
 * Checked the total number of records.
 * Identified duplicate invoice IDs.
@@ -46,8 +46,7 @@ Additional fields, including day name, month name, and time of day, were prepare
 * Removed unnecessary spaces from text columns.
 * Checked for invalid quantities and zero unit prices.
 * Prepared date values for time-based analysis.
-
-### 3. Feature Engineering
+3. Feature Engineering
 
 Created additional fields to support analysis:
 
@@ -56,7 +55,7 @@ Created additional fields to support analysis:
 * Time of day
 * Product category based on sales compared with the average
 
-### 4. Exploratory Data Analysis (EDA)
+4. Exploratory Data Analysis (EDA)
 
 Used SQL queries to analyze:
 
@@ -82,14 +81,14 @@ Applied advanced SQL techniques, including:
 * Product ranking by branch and state
 * Pareto-style product revenue analysis
 
-### 6. Tableau Dashboard
+ 6. Tableau Dashboard
 
 Developed a Tableau dashboard to present sales information visually and make it easier to explore sales performance, profitability, product trends, and business patterns.
 
 <img width="1195" height="743" alt="{8C7D3782-55B8-4299-B3A2-1C53F3A38486}" src="https://github.com/user-attachments/assets/c45fda5a-6c3c-491e-bb6f-40b80379ff30" />
 
 
-## 🎯 Key Business Questions
+ Business Questions
 
 * Which product lines generate the highest revenue?
 * Which products sell the most?
@@ -100,13 +99,12 @@ Developed a Tableau dashboard to present sales information visually and make it 
 * Which customer types generate the highest revenue?
 * Which days and times have stronger sales activity?
 * How do customer ratings vary by product line and branch?
-
-## 📁 Project Files
+Project Files
 
 * `SQLWalMartAnalysis.sql` – SQL queries for database creation, data cleaning, feature engineering, and sales analysis.
 * `walmart sales dashboard.twbx` – Packaged Tableau workbook containing the sales dashboard.
 
-## 💡 Skills Demonstrated
+ Skills Demonstrated
 
 * SQL querying
 * Data cleaning and transformation
@@ -117,8 +115,7 @@ Developed a Tableau dashboard to present sales information visually and make it 
 * Business and sales analysis
 * Data visualization using Tableau
 * Dashboard development
-
-## 🏁 Conclusion
+Conclusion
 
 This project demonstrates how SQL can be used to clean, transform, and analyze sales data to answer business questions. Tableau is then used to present the analysis through visualizations and a dashboard.
 
